@@ -16,7 +16,8 @@ src/
 
 ```
 streamlit
-openai
+pandas
+requests
 python-dotenv
 ```
 
@@ -27,5 +28,10 @@ python-dotenv
 pip install -r requirements.txt
 
 # Rodar a aplicação
-streamlit run app.py
+streamlit run src/app.py
 ```
+
+## Observação
+
+Este projeto utiliza um modelo de linguagem executado localmente através do Ollama.
+Certifique-se de que o modelo llama3 esteja instalado antes de executar a aplicação.
